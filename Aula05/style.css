@@ -1,0 +1,72 @@
+body{
+    height: 100%;
+    margin: 0px,5px;
+    color: aliceblue;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: cadetblue;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin: 0px , 5px;
+}
+
+
+a{
+    color: aliceblue;
+
+}
+button{
+    width: 80px;
+    height: 40px;
+    color: aliceblue;
+    border-color: orange;
+    border-radius: 5px;
+    background-color: magenta;
+
+}
+
+
+fieldset{
+    border-radius: 3px;
+    border-color: black;
+    box-shadow: 3px 5px rgba(0,0,0,0.3);
+    background-color: rgba(40,60,125,0.3);
+
+
+}
+
+form{
+    margin: 5px;
+    padding: 5px;
+
+
+}
+
+form input{
+    width: 30%;
+    height: 25px;
+    border-radius: 5px;
+
+}
+
+#esquerda{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+
+}
+
+#direita{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+
+}
+
+#logo{
+    width: 250px;
+    height: auto;
+}
